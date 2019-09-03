@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    tools:context=".AboutMiBFragment">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager_about_us"
+        android:layout_width="match_parent"
+        android:layout_height="194dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/view_pager_about_us">
+
+        <RelativeLayout
+            android:id="@+id/rel_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/tv_title"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Make In BVB"/>
+            <TextView
+                android:id="@+id/tv_desc"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:textIsSelectable="false"
+                android:textSize="16sp"
+                android:layout_below="@id/tv_title"
+                android:text="@string/MiBDesc"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

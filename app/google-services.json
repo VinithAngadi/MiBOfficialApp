@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "805726040908",
+    "firebase_url": "https://mibofficial-af6b7.firebaseio.com",
+    "project_id": "mibofficial-af6b7",
+    "storage_bucket": "mibofficial-af6b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805726040908:android:cf1abd292c72c20c",
+        "android_client_info": {
+          "package_name": "makeinbvb.com.mibofficialapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805726040908-kb5hn99h7sicmr7da51bvt76gpr8o8a0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "makeinbvb.com.mibofficialapp",
+            "certificate_hash": "a0c2e4829203553ee7bcec40ed2994606f7d5305"
+          }
+        },
+        {
+          "client_id": "805726040908-8lm1fan3lo0krvc8q331hpldido0laff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQf73ATpuEnken2t-fAHfHALKlL7GOAqM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805726040908-8lm1fan3lo0krvc8q331hpldido0laff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">MiBAPP</string>
+    <string name="menu_1">Events</string>
+    <string name="menu_2">Announcements</string>
+    <string name="menu_3">About Us</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="nameerror">Enter a valid name</string>
+    <string name="emailerror">Enter a valid email</string>
+    <string name="mobileerror">Enter a valid number</string>
+    <string name="passworderror">Enter a valid password</string>
+    <string name="passmatcherror">Passwords do not match</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <string name="MiBDesc">Make in BVB(MiB) is the echo of infinite innovative ideas framed to restructure the country. With "Make in India", "Start Up India", "Stand Up India" as the driving power, the journey of MiB in reconstructing the future of the country is accelerated. This unique body strives for the revolutionary evolution of entrepreneurial thinking through the envisioned entrepreneurial ecosystem. Every action of it aims at the profound development of persona of the society. To be precise "Inspiring minds to innovate".</string>
+
+    <string name="PUPA">What is Make in India, if there is no making in there! And how anyone can make something, if they never done it before? This is precisely why we need to have our engineers, students \'make\' something, \'build\' something, that too having some monetary value. If one knows how to \'make-to-sell\' it is a life lesson.PUPA is an accelerated entrepreneurial experience which ignites the entrepreneurial spark.</string>
+    <string name="E_Summit">In E-Summit people get an unique opportunity to interact with accomplished entrepreneurs and experience the business plan development process, evolve as an effective technologist who can profitably sell ideas.Students can unleash the true potential through the structured mentoring and also grab the opportunity to win a very huge cash prize with incubation to realize their endeavour.</string>
+    <string name="Ideation">In Intel Ideation people get an unique opportunity to interact with accomplished entrepreneurs and experience the business plan development process, evolve as an effective technologist who can profitably sell ideas.Students can unleash the true potential through the structured mentoring and also grab the opportunity to win a very huge cash prize with incubation to realize their endeavour.</string>
+    <string name="Butterfly">Do you conceive challenges as opportunities? Do you aspire to be the difference maker? Do you want to solve the problems through unique value propositions and generate revenue? Butterfly - B Plan Pitching Competition is the platform you are looking for.</string>
+    <string name="title_activity_pupa_activity">Pupa_activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="action_logout">Log out</string>
+    <string name="action_feedback">Feedback</string>
+    <string name="BFS_ques_string">We are going to trouble you\nwith next 10 questions😈!\nBrace yourself!</string>
+
+    <string-array name="degree_list">
+        <item>--Select--</item>
+        <item>B.Sc.</item>
+        <item>B.E.</item>
+        <item>B.Tech.</item>
+        <item>M.Sc.</item>
+        <item>M.Tech.</item>
+        <item>BBA</item>
+        <item>MBA</item>
+    </string-array>
+
+    <string-array name="specialization_list">
+        <item>--Select--</item>
+        <item>B.Sc.</item>
+        <item>B.E.</item>
+        <item>B.Tech.</item>
+        <item>M.Sc.</item>
+        <item>M.Tech.</item>
+        <item>BBA</item>
+        <item>MBA</item>
+    </string-array>
+
+</resources>

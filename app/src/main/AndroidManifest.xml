@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="makeinbvb.com.mibofficialapp">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MiBofficialApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_mib_launch_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_mib_launch_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_mib_launch_icon" />
+        <!--
+             Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait"
+            android:theme="@style/InsideAppTheme" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EventInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PupaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/InsideAppTheme" />
+        <activity
+            android:name=".E_SummitActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IntelIdeationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ButterflyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NoInternetActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".PupaReg1Activity" />
+        <activity android:name=".PupaReg2Activity" />
+        <activity android:name=".PupaReg3Activity" />
+        <activity android:name=".ChooseTeamActivity" />
+        <activity android:name=".QRcodeShowActivity" />
+        <activity android:name=".RegistrationChooseActivity" />
+        <activity android:name=".RegistrationStudentActivity" />
+        <activity android:name=".AnnouncementActivity" />
+        <activity android:name=".BFSReg1Activity" />
+        <activity android:name=".BFSRulesActivity" />
+        <activity android:name=".BFSReg2Activity"></activity>
+    </application>
+
+</manifest>
